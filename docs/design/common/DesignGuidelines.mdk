@@ -30,6 +30,23 @@ Currently, the document id mainly as a list of topics that we want to cover in m
 
 [TOC]
 
+# Contributing to this Specification
+
+This specification is developed on GitHub using a consensus process. Suggestions and improvements are most welcome! Consensus among stakeholders is required for a proposal to be accepted. If you're reading this, consider yourself a stakeholder and feel free to get involved in the consensus process!
+
+This specification is lacking detail in a number of areas. You can help! For example, the following sections would be great additions:
+
+- More documentation requirements/best practices
+- gitignore
+- npmignore
+- toolchain (prettier, webpack/rollup, test frameworks, etc.)
+- editorconfig
+- README.md guidelines
+- tslint config
+- CI setups
+
+In general the organization of the specification could also be improved. Suggestions welcome!
+
 # Language Independent Guidelines
 
 ## General Guidelines { #common-general }
@@ -289,5 +306,7 @@ allow any customer configuration or customization via a shared resource like a f
 # Python Specific Guidelines
 
 # JavaScript Specific Guidelines
+
+[INCLUDE=../typescript/DesignGuidelines.mdk]
 
 # Go Specific Guidelines
